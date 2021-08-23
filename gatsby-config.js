@@ -15,12 +15,6 @@ module.exports = {
       }
     },
     "gatsby-plugin-mdx",
-    {
-      resolve: `gatsby-remark-images`,
-      options: {
-        maxWidth: 800,
-        wrapperStyle: fluidResult => `flex:${_.round(fluidResult.aspectRatio, 2)};`,
-      },
-    }
+    "gatsby-transformer-sharp",
   ],
 };

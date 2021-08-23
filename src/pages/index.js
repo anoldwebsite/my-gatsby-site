@@ -2,7 +2,7 @@
 import * as React from 'react';
 //import { Link } from 'gatsby';
 import Layout from '../components/layout';
-import {StaticImage} from 'gatsby-plugin-image';
+import {StaticImage} from 'gatsby-plugin-image';//If the source of the image is a hard coded URL or a hard coded source then we use StaticImage otherwise for dynamic images(if the image source gets passed in as a prop), we use GatsbyImage component.
 
 //Step 2: Define your component
 const IndexPage = () => {
