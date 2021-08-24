@@ -1,10 +1,15 @@
 .container {
   margin: auto;
-  max-width: 550px;
+  max-width: 850px;
   font-family: sans-serif;
 }
 .heading {
   color: rebeccapurple;
+  text-align: center;
+}
+.posted-date {
+  text-align: center;
+  color: rgb(79, 160, 119);
 }
 .nav-links {
   display: flex;
@@ -22,4 +27,7 @@
   color: gray;
   font-weight: 700;
   margin: 3rem 0;
+}
+.homepage-images {
+  max-width: 469px;
 }
